@@ -85,3 +85,128 @@ tr:hover {
     border-radius: 20px;
     font-size: 13px;
 }
+
+/* Task Action Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    margin-right: 5px;
+}
+
+.btn-add {
+    background: #333;
+    color: white;
+}
+
+.btn-add:hover {
+    background: #555;
+}
+
+.btn-edit {
+    background: #e0e0e0;
+    color: #333;
+}
+
+.btn-edit:hover {
+    background: #cfcfcf;
+}
+
+.btn-archive {
+    background: #b00020;
+    color: white;
+}
+
+.btn-archive:hover {
+    background: #8c0019;
+}
+
+.action-form {
+    display: inline;
+}
+
+.task-actions {
+    margin-bottom: 20px;
+}
+
+/* Task Form */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #1f2a3d;
+    box-shadow: 0 0 0 2px rgba(31, 42, 61, 0.1);
+}
+
+.task-form-actions {
+    margin-top: 25px;
+}
+
+.btn-submit {
+    display: inline-block;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background: #1f2a3d;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background: #2d3b52;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 18px;
+    color: #1f2a3d;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-back:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    background: #ffe5e5;
+    border: 1px solid #e0a0a0;
+    border-radius: 6px;
+    color: #a00000;
+}
+
+.login-card {
+    max-width: 500px;
+    margin: 0 auto;
+}

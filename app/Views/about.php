@@ -11,11 +11,17 @@
     <h2>Management System</h2>
 
     <div>
-        <a href="/">Home</a>
-        <a href="/tasks">Tasks</a>
-        <a href="/profile">Profile</a>
-        <a href="/about">About</a>
-    </div>
+    <a href="/">Home</a>
+    <a href="/tasks">Tasks</a>
+    <a href="/profile">Profile</a>
+    <a href="/about">About</a>
+
+    <?php if (session()->get('logged_in')): ?>
+        <a href="/logout">Logout</a>
+    <?php else: ?>
+        <a href="/login">Login</a>
+    <?php endif; ?>
+</div>
 </nav>
 
 <div class="container">
